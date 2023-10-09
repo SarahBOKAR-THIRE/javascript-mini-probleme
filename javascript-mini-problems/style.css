@@ -1,0 +1,82 @@
+body {
+
+    width: 100%;
+    height: 700px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Source Serif 4', serif;
+    font-family: 'Zeyada', cursive;
+    font-size: 5rem;
+}
+p {
+    font-size: 1rem;
+}
+
+h2 {
+    
+    color: #f4c93b;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.container {
+    width: 600px; 
+    
+}
+
+.card {
+    margin-top: 130px;
+    background-color: #132225;
+}
+
+.background-image {
+    background-image: url(/images/legumes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-vert {
+    background: linear-gradient(to bottom, #000000 70%, #ffffff 70%);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+   
+.done>span{
+    text-decoration: line-through;
+    color: white;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+.li {
+    color: #fff;
+}
+
+.btn {
+    background-color: transparent;
+    color: #db2534; /* Couleur du texte normale */
+    border: 2px solid #f4c93b; /* Bordure normale */
+    transition: background-color 0.3s; /* Animation de transition */
+    margin-left: 10px;
+}
+
+
+.btn:hover {
+    background-color: #f4c93b; /* Couleur de fond jaune */
+    color: #fff; /* Couleur du texte en blanc */
+    border: 2px solid #f4c93b; /* Bordure jaune */
+}
+
+.form {
+    display: flex;
+    flex-direction:row;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
